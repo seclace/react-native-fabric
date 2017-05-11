@@ -2,7 +2,7 @@
 #import <React/RCTBridgeModule.h>
 #import <React/RCTEventDispatcher.h>
 #import <React/RCTBridge.h>
-#import <Crashlytics/Crashlytics.h>
+#import <Crashlytics.framework/Headers/Crashlytics.h>
 
 @implementation SMXAnswers
 @synthesize bridge = _bridge;
